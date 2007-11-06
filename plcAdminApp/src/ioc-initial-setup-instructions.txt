@@ -26,16 +26,12 @@ Instructions for Allen-Bradley ControlLogix 5000 PLC:
 #       VERMAJ    First part of PLC logic version.  (Format for version number is MAJ.MIN.REV)
 #       VERMIN    Second part of PLC logic version.  (Format for version number is MAJ.MIN.REV)
 #       VERREV    Third part of PLC logic version.  (Format for version number is MAJ.MIN.REV)
-#       TASK1     Name of main task on PLC.  Max 4 characters.  Provided by PLC programmer.
-#       PROG1     Name of program #1 on PLC, usually the main program.  Max 4 characters.  Provided by PLC programmer.
-#       PROG2     Name of program #2 on PLC.  Max 4 characters.  Provided by PLC programmer.
-#       PROG3     Name of program #3 on PLC.  Max 4 characters.  Provided by PLC programmer.
 #==============================================================================
 #
 file plcAdminControlLogix.db
 {
-   pattern {  PLC           , PLCNAME       , ARRAY                    , SUBSYSTEM , VERMAJ , VERMIN , VERREV , TASK1 , PROG1 , PROG2 , PROG3 }
-           {  PLC_XV01_VA01 , PLC:XV01:VA01 , "PLCADMIN_PLC_XV01_VA01" , VACUUM    ,      3 ,      0 ,      1 , MAIN  , MAIN  , PRG2  , PRG3  }
+   pattern {  PLC           , PLCNAME       , ARRAY                    , SUBSYSTEM , VERMAJ , VERMIN , VERREV }
+           {  PLC_XV01_VA01 , PLC:XV01:VA01 , "PLCADMIN_PLC_XV01_VA01" , VACUUM    ,      3 ,      0 ,      1 }
 }
 #------------------------------------------------------------------------------
 
