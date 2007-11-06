@@ -28,7 +28,7 @@ Instructions for Allen-Bradley ControlLogix 5000 PLC:
 #       VERREV    Third part of PLC logic version.  (Format for version number is MAJ.MIN.REV)
 #==============================================================================
 #
-file plcAdminControlLogix.db
+file plcAdminControlLogix.template
 {
    pattern {  PLC           , PLCNAME       , ARRAY                    , SUBSYSTEM , VERMAJ , VERMIN , VERREV }
            {  PLC_XV01_VA01 , PLC:XV01:VA01 , "PLCADMIN_PLC_XV01_VA01" , VACUUM    ,      3 ,      0 ,      1 }
