@@ -157,7 +157,7 @@ record(mbbi, "$(PLCNAME):FAULTSTATUS") {
   field(ONSV, "MAJOR")
   field(TWSV, "MAJOR")
   field(THSV, "MINOR")
-  field(FRSV, "MINOR")
+  field(FRSV, "NO_ALARM")
 }
 
 record(calc, "$(PLCNAME):KEYSTATUSRAW") {
@@ -1050,6 +1050,8 @@ record(calc, "$(PLCNAME):PROG3TLST") {
 
 record(calc, "$(PLCNAME):STATSUMY") {
   field(SCAN, "1 second")
+  field(CALC, "A")
+  field(INPA, "$(PLCNAME):STATSUMY.SEVR")
   field(INPB, "$(PLCNAME):HEARTBEATSUM MS")
   field(INPC, "$(PLCNAME):FAULTSTATUS MS")
   field(INPD, "$(PLCNAME):KEYSTATUS MS")
