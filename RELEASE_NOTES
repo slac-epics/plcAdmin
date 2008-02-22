@@ -12,4 +12,8 @@
 #
 #==============================================================
 #
-plcAdmin-R1-0-0: Initial version
+plcAdmin-R1-0-0-1:  Build with base-R3-14-9-lcls1
+                    Replace CONFIG_APP with CONFIG_SITE
+                    Add RELEASE_SITE
+
+plcAdmin-R1-0-0:   Initial version
