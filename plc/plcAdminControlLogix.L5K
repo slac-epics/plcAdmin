@@ -47,7 +47,7 @@ CONTROLLER plcAdminControlLogix (ProcessorType := 1756-L61,
 
 	TAG
 		PLCADMIN_PLC_location_unit : DINT[40] (Description := "PLC Admin: Main PLC Admin array.  $NUsed for monitoring of PLC by the EPICS control system.",
-		            RADIX := Decimal) := [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+		            RADIX := Decimal) := [1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
 		PLCADMIN_UPTIMETIMER : TIMER (Description := "PLC Admin: Uptime counter.  Used for monitoring of PLC by EPICS control system.") := [-1071850904,1000000000,0];
 	END_TAG
 
