@@ -907,7 +907,7 @@ record(calc, "$(PLCNAME):PLCADMINVREV") {
   field(CALC, "A")
   field(INPB, "$(PLCNAME):HEARTBEATCLC MS")
   field(PREC, "0")
-  field(HIHI, "1")
+  field(HIHI, "3")
   field(LOLO, "-1")
   field(HHSV, "MAJOR")
   field(LLSV, "MAJOR")
