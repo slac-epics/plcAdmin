@@ -8,10 +8,14 @@
 #  Rev:  dd-mmm-yyyy, Reviewer's Name    (USERNAME)
 #--------------------------------------------------------------
 #  Mod:
-#        dd-mmm-yyyy, Modifier's Name    (USERNAME)
+#        28-Apr-2009, K. Luchini         (LUCHINI):
+#          release plcAdmin-R2-0-0
 #
 #==============================================================
 #
+plcAdmin-R2-0-0:  Build with base-R3-14-8-2-lcls3
+                  Build with rtems-4.9.1
+
 plcAdmin-R1-0-2:  Build with base-R3-14-8-2-lcls2
 		  Increase number of allowed missing heartbeat pulses from 3 to 7
 		  Change severity of minor stack/nvram fault from minor to no_alarm
