@@ -8,6 +8,8 @@
 #  Rev:  dd-mmm-yyyy, Reviewer's Name    (USERNAME)
 #--------------------------------------------------------------
 #  Mod:
+#        19-Mar-2010, S. Hoobler        (SONYA):
+#          release plcAdmin-R2-1-0
 #        22-Feb-2010, K. Luchini         (LUCHINI):
 #          release plcAdmin-R2-1-0
 #        28-Apr-2009, K. Luchini         (LUCHINI):
@@ -15,8 +17,8 @@
 #
 #==============================================================
 #
-plcAdmin-R2-1-0:  Build with base-R3-14-8-2-lcls5
-                  Build with rtems R4.9.3
+plcAdmin-R2-1-0:  Build with base-R3-14-8-2-lcls6
+                  Build with rtems R4.9.4
 
 plcAdmin-R2-0-0:  Build with base-R3-14-8-2-lcls3
                   Build with rtems-4.9.1
