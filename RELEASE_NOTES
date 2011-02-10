@@ -8,6 +8,8 @@
 #  Rev:  dd-mmm-yyyy, Reviewer's Name    (USERNAME)
 #--------------------------------------------------------------
 #  Mod:
+#        10-Feb-2011, M. Boyes          (MBOYES):
+#          release plcAdmin-R2-2-0
 #        19-Mar-2010, S. Hoobler        (SONYA):
 #          release plcAdmin-R2-2-0
 #        22-Feb-2010, K. Luchini         (LUCHINI):
@@ -17,6 +19,11 @@
 #
 #==============================================================
 #
+plcAdmin-R2-2-1:  Build with base-R3-14-8-2-lcls6
+                  Build with rtems-4.9.4
+                  Fixed plcAdminControlLogix.template "@" link bug 
+                  Added CMP_LGX_L32 to Model list
+
 plcAdmin-R2-2-0:  Build with base-R3-14-8-2-lcls6
                   Build with rtems-4.9.4
 
