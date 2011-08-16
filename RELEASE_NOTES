@@ -19,6 +19,8 @@
 #
 #==============================================================
 #
+plcAdmin-R2-2-2:  Builds for either base-R3-14-8-2-lcls6_p1 or
+                  base-R3-14-12
 plcAdmin-R2-2-1:  Build with base-R3-14-8-2-lcls6
                   Build with rtems-4.9.4
                   Fixed plcAdminControlLogix.template "@" link bug 
