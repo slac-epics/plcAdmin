@@ -11,6 +11,7 @@ include $(TOP)/configure/CONFIG
 # Create and install (or just install)
 # databases, templates, substitutions like this
 DB += plcAdminControlLogix.template
+DB += plcAdminSiemens_S7plc.template
 
 #----------------------------------------------------
 # If <anyname>.db template is not named <anyname>*.template add
