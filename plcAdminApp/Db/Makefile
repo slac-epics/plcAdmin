@@ -12,6 +12,10 @@ include $(TOP)/configure/CONFIG
 # databases, templates, substitutions like this
 DB += plcAdminControlLogix.template
 DB += plcAdminSiemens_S7plc.template
+DB += s7plc_ai.template
+DB += s7plc_bi.template
+DB += s7plc_bo.template
+DB += s7plc_longin.template
 
 #----------------------------------------------------
 # If <anyname>.db template is not named <anyname>*.template add
