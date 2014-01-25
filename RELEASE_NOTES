@@ -22,7 +22,7 @@
 #==============================================================
 #
 plcAdmin-R3-0-0:  Added support for Siemens S7 PLCs
-                  Add plc_admin.cwConfig
+                  Add plcAdminControlLogix.cwConfig
 
 plcAdmin-R2-2-2:  Builds for either base-R3-14-8-2-lcls6_p1 or
                   base-R3-14-12
