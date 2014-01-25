@@ -17,6 +17,13 @@ DB += s7plc_bi.template
 DB += s7plc_bo.template
 DB += s7plc_longin.template
 
+# Install templates for plc with EtherIP driver
+DB += plc_analogin.template
+DB += plc_analogout.template
+DB += plc_digitalin.template
+DB += plc_digitalout.template
+DB += plc_digitalout_momentary.template
+
 #----------------------------------------------------
 # If <anyname>.db template is not named <anyname>*.template add
 # <anyname>_TEMPLATE = <templatename>
