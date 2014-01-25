@@ -1,0 +1,7 @@
+record(bo, "$(NAME)") {
+  field(DESC, "$(DESC)")
+  field(DTYP, "EtherIP")
+  field(OUT, "@$(PLC) $(ADDR) S 1")
+  field(ZNAM, "$(ZNAM)")
+  field(ONAM, "$(ONAM)")
+}
