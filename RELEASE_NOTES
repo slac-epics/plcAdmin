@@ -21,6 +21,8 @@
 #
 #==============================================================
 #
+R3.1.0: First version with the new Git Workflow and EPICS Base R3.15.5
+
 plcAdmin-R3-0-0:  Added support for Siemens S7 PLCs
                   Add plcAdminControlLogix.cwConfig
 
