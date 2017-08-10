@@ -18,8 +18,6 @@ include $(TOP)/configure/CONFIG
 #----------------------------------------
 #  ADD MACRO DEFINITIONS AFTER THIS LINE
 #
-# Rules for installing ChannelWatcher files:
-CFG += CONFIG_RESTORE
 
 # Install config files
 RESTORES += plcAdminControlLogix.cwConfig
