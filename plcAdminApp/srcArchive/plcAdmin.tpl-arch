@@ -1,0 +1,1 @@
+$(dtype):$(area):$(position):S7_STATUS 1 monitor
