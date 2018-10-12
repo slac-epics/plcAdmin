@@ -7,4 +7,5 @@ record(bo, "$(dtype):$(area):$(position):$(attribute)") {
   field(ZSV,  "$(zsv)")
   field(OSV,  "$(osv)")
   field(PINI, "YES")
+  info(autosaveFields, "VAL")
 }

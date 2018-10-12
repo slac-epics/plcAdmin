@@ -4,4 +4,5 @@ record(bo, "$(NAME)") {
   field(OUT, "@$(PLC) $(ADDR) S 1")
   field(ZNAM, "$(ZNAM)")
   field(ONAM, "$(ONAM)")
+  info(autosaveFields, "VAL")
 }

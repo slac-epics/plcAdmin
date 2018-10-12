@@ -8,4 +8,5 @@ record(ao, "$(NAME)") {
   field(DRVL, "$(DRVL)")
   field(HOPR, "$(DRVH)")
   field(LOPR, "$(DRVL)")
+  info(autosaveFields, "VAL")
 }
