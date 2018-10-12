@@ -5,3 +5,6 @@ dbd
 include
 lib
 bin
+cfg/
+doc/
+restore/
