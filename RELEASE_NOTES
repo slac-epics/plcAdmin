@@ -21,6 +21,12 @@
 #
 #==============================================================
 #
+R3.2.1: Marcio Donadio (marcio) - 12/Oct/2018:
+        - Added string records in database to register LOCATION and DRAWING.
+        - Added info(autosaveFields) for output records.
+        - Added infra to build archive template files for the IOCs that use
+          this module.
+
 R3.1.1: Fixed the CONFIG_RESTORES file and moved it to configure.
 
 R3.1.0: First version with the new Git Workflow and EPICS Base R3.15.5
