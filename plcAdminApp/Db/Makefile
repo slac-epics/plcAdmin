@@ -16,6 +16,7 @@ DB += s7plc_ai.template
 DB += s7plc_bi.template
 DB += s7plc_bo.template
 DB += s7plc_longin.template
+DB += s7plc_info.template
 
 # Install templates for plc with EtherIP driver
 DB += plc_analogin.template

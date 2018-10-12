@@ -1,0 +1,9 @@
+record(stringin, "$(dtype):$(area):$(position):LOCATION") {
+  field(DESC, "General string to register the location")
+  info(autosaveFields, "VAL")
+}
+
+record(stringin, "$(dtype):$(area):$(position):DRAWING") {
+  field(DESC, "General string to register the drawing")
+  info(autosaveFields, "VAL") 
+}
