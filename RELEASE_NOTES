@@ -21,6 +21,9 @@
 #
 #==============================================================
 #
+R3.2.2: Marcio Donadio (marcio) - 16/Oct/2018:
+        - Added PVs from plcAdminControlLogix.template on the archiver files.
+
 R3.2.1: Marcio Donadio (marcio) - 12/Oct/2018:
         - Added string records in database to register LOCATION and DRAWING.
         - Added info(autosaveFields) for output records.
