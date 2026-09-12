@@ -5,9 +5,6 @@ dbd
 include
 lib
 bin
-.cproject
-.project
-.settings/
 cfg/
 doc/
 restore/
