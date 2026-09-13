@@ -10,13 +10,13 @@ include $(TOP)/configure/CONFIG
 #----------------------------------------------------
 # Create and install (or just install)
 # databases, templates, substitutions like this
+DB += plcAdminControlLogixLongTimeout.template
 DB += plcAdminControlLogix.template
 DB += plcAdminSiemens_S7plc.template
 DB += s7plc_ai.template
 DB += s7plc_bi.template
 DB += s7plc_bo.template
 DB += s7plc_longin.template
-DB += s7plc_info.template
 
 # Install templates for plc with EtherIP driver
 DB += plc_analogin.template
