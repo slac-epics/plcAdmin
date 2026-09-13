@@ -21,6 +21,9 @@
 #
 #==============================================================
 #
+R3.2.3_CATER_185468_beta1: Garth Brown (gwbrown) - 12/Sep/2026:
+        - Add plcAdminControlLogixLongTimeout.template, with configurable PLC heartbeat params
+
 R3.2.2: Marcio Donadio (marcio) - 16/Oct/2018:
         - Added PVs from plcAdminControlLogix.template on the archiver files.
 
