@@ -758,7 +758,7 @@ record(calc, "$(PLCNAME):HEARTBEATE30") {
 
 record(calc, "$(PLCNAME):HEARTBEATE29") {
   field(FLNK, "$(PLCNAME):HEARTBEATE30")
-  field(CALC, "A")
+  field(CALC, "C>29?A:0")
   field(INPA, "$(PLCNAME):HEARTBEATE28.B")
   field(INPB, "$(PLCNAME):HEARTBEATE29.VAL")
   field(INPC, "$(PLCNAME):HBMAXECT")
@@ -838,7 +838,7 @@ record(calc, "$(PLCNAME):HEARTBEATE20") {
 
 record(calc, "$(PLCNAME):HEARTBEATE19") {
   field(FLNK, "$(PLCNAME):HEARTBEATE20")
-  field(CALC, "A")
+  field(CALC, "C>19?A:0")
   field(INPA, "$(PLCNAME):HEARTBEATE18.B")
   field(INPB, "$(PLCNAME):HEARTBEATE19.VAL")
   field(INPC, "$(PLCNAME):HBMAXECT")
