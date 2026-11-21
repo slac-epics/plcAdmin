@@ -21,6 +21,7 @@
 #
 #==============================================================
 #
+
 R3.2.3: Garth Brown (gwbrown) - 12/Sep/2026:
         - Add plcAdminControlLogixLongTimeout.template, with macro configurable PLC heartbeat timeout params
         - Recognize more AB PLC models, to display the model name. NOTE: Requires new library. Add plcAdmin.dbd and plcAdmin to src/Makefile.
