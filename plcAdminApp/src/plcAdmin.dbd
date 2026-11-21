@@ -4,3 +4,7 @@
 #driver(myDriver)
 #registrar(myRegistrar)
 #variable(myVariable)
+
+# aSub routine backing $(PLCNAME):MODEL (plcAdminModel.cpp)
+function(plcAdminModelLookupInit)
+function(plcAdminModelLookup)

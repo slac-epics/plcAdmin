@@ -14,6 +14,10 @@ include $(TOP)/configure/CONFIG
 
 DBD += plcAdmin.dbd
 
+LIBRARY_IOC += plcAdmin
+plcAdmin_SRCS += plcAdminModel.cpp
+plcAdmin_LIBS += $(EPICS_BASE_IOC_LIBS)
+
 include $(TOP)/configure/RULES
 #----------------------------------------
 #  ADD RULES AFTER THIS LINE
